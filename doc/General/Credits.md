@@ -35,6 +35,10 @@ LibreNMS ships with the following software components:
   Mika Tuupola <tuupola@appelsiini.net> (@tuupola on github)
   MIT License
 
+- Elastica
+  http://elastica.io/
+  Nicolas Ruflin <spam@ruflin.com> (@ruflin on github)
+  MIT License
 
 Other components (needs details filled in):
 - JpGraph (html/includes/jpgraph): QPL 1.0 license
