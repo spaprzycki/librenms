@@ -65,5 +65,5 @@ Leaflet.markercluster:
 Leaflet.awesome-markers:
 	$(GIT_SUBTREE) --prefix=lib/Leaflet.awesome-markers https://github.com/lvoogdt/Leaflet.awesome-markers.git 2.0/develop
 
-elastica:
-	$(GIT_SUBTREE) --prefix=lib/elastica https://github.com/ruflin/Elastica.git master
+Elastica:
+	$(GIT_SUBTREE) --prefix=lib/Elastica https://github.com/ruflin/Elastica.git master
