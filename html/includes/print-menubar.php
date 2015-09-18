@@ -444,7 +444,12 @@ if ($_SESSION['userlevel'] >= '5' && ($routing_count['bgp']+$routing_count['ospf
 ?>
 
         </li><!-- End 4 columns container -->
-
+        <li class="dropdown">
+          <a href="netflow/" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><i class="fa fa-area-chart fa-fw fa-lg fa-nav-icons"></i> Netflow</a>
+          <ul class="dropdown-menu">
+            <li><a href="netflow/query=top-talkers"> <i class="fa fa-sort-amount-desc fa-fw fa-lg"></i> Top talkers</a></li>
+          </ul>
+        </li>
 <?php
 }
 ?>
